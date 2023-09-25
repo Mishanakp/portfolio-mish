@@ -1,0 +1,40 @@
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.projectsDesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.projectBars {
+    margin: 3rem auto;
+    width: 100vw;
+    max-width: 25rem;
+}
+
+.projectBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 5rem;
+    width: 25vw;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    background: rgb(50, 50, 50);
+}
+
